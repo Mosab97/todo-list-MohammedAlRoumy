@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-do's list</title>
+    <link rel="stylesheet" href="todo.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>My To-do's list</h1>
+
+        <input id="new-task" type="text" placeholder="add new task"><button class="add">Add to list</button>
+        
+        <h3>To do</h3>
+        
+        <ul id="incomplete-tasks">
+            <li>
+                <input type="checkbox">
+                <label>Learn HTML</label>
+                <input type="text">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+            <li >
+                <input type="checkbox">
+                <label>Learn CSS</label>
+                <input type="text" value="Learn CSS">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+            <li>
+                <input type="checkbox">
+                <label>Learn PHP</label>
+                <input type="text">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+
+        </ul>
+
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+            <li><input type="checkbox" checked>
+                <label>Learn JavaScript</label>
+                <input type="text">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+            <li><input type="checkbox" checked>
+                <label>Learn AJAX</label>
+                <input type="text">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
