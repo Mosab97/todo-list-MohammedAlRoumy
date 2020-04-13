@@ -60,24 +60,27 @@ input[type="text"] {
   border-bottom: 1px solid #000;
   background-color: #eee;
 }
-
-button.done button.delete{
-  float: left;
+.btn{
+  float: right;
 }
-
-
-
-li > .delete {
+/*
+li> .btn {
+  opacity: 0;
+}
+li:hover .btn{
+  opacity: 1;
+}
+*/
+li >.btn .delete{
   border: none;
   background: none;
   color: #CF2323;
 }
 
 
-li > .done {
+li >.btn .done{
   border: none;
   background: none;
   color: skyblue;
-  padding-left: 80%;
 }
 

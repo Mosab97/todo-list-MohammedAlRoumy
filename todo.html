@@ -10,35 +10,61 @@
 
 <body>
 
-    <div>
-            <h1>My To-do's list</h1>
-            <input id="new-task" type="text" placeholder="add new task"><button class="add">Add to list</button>    
-    
-        <h3>To do</h3>
-        
-        <ul id="tasks">
-            <li>
-               
-                Learn HTML
-                    <button  class="done">Mark as Done</button> <span> | </span> <button class="delete">Delete</button> 
-            </li>
-            <li >
-                Learn CSS
-                <button  class="done">Mark as Done</button> | </span> <button class="delete">Delete</button>   
-            </li>
+<div>
+    <h1>My To-do's list</h1>
+    <input id="new-task" type="text" placeholder="add new task">
+    <button class="add" id="add">Add to list</button>
 
-            <li>
-                Learn PHP
-                <button  class="done">Mark as Done</button> <span> | </span> <button class="delete">Delete</button>
-            </li>
-            <li >
-                Learn MySQL
-                <button  class="done">Mark as Done</button> <span> | </span> <button class="delete">Delete</button>
-            </li>
+    <h3>To do</h3>
 
-        </ul>
-    </div>
+    <ul id="tasks">
+        <li>
+            <label>Learn HTML</label>
+            <div class="btn">
+             <span>
+                    <button class="done">Mark as Done</button>
+                <span class="dash"> | </span>
+             </span>
+                <button class="delete">Delete</button>
+            </div>
+
+        </li>
+        <li>
+            <label>Learn CSS</label>
+            <div class="btn">
+                 <span>
+                    <button class="done">Mark as Done</button>
+                <span class="dash"> | </span>
+             </span>
+                <button class="delete">Delete</button>
+            </div>
+        </li>
+
+        <li>
+            <label>Learn PHP</label>
+            <div class="btn">
+                  <span>
+                    <button class="done">Mark as Done</button>
+                <span class="dash"> | </span>
+             </span>
+                <button class="delete">Delete</button>
+            </div>
+        </li>
+        <li>
+            <label>Learn MySQL</label>
+            <div class="btn">
+                <span>
+                    <button class="done">Mark as Done</button>
+                <span class="dash"> | </span>
+             </span>
+                <button class="delete">Delete</button>
+            </div>
+        </li>
+
+    </ul>
+</div>
+
+<script src="todo.js"></script>
 
 </body>
-
 </html>
